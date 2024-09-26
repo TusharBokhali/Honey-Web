@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.Product-Description{
+    width: 100%;
+}
+.p-description,.content-Font{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.p-description h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.p-description p{
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    padding: 25px 120px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+.All-product{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+}
+.products{
+    width: 40%;
+    height: 200px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.products .img{
+    width: 40%;
+}
+.img img{
+    width: 100%;
+    height: 202px;
+    border-radius: 30px 0px 0px 30px;
+    /* height: 200px; */
+}
+.price{
+    width: 60%;
+    text-align: center;
+}
+.price h3,.content-Font h3,.Reviews-main h1{
+    margin-bottom: 20px;
+    line-height: 24px;
+    font-family: 600;
+}
+.Honey-Collection{
+    width: 100%;
+    margin-top: 100px;
+}
+.content-Font h3{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.content-Font p{
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    padding: 0 120px;
+    margin-bottom: 50px;
+
+}
+.Reviews-main{
+    width: 100%;
+    margin-top: 120px;
+}
+.Revies-Text p{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding: 30px 120px;
+    line-height: 24px;
+}
+.Profile-Details{
+    width: 100%;
+    display: flex;
+justify-content: end;
+}
+.Detail{
+    width: 50%;
+}
+.Detail p{
+    width: 52%;
+    padding: 40px 0px;
+    line-height: 24px;
+    color: #000000B2;
+    font-weight: 500;
+}
+.Profile{
+    width: 30%;
+}
+.Profile img{
+    width: 60%;
+    border-radius: 100%;
+}
+.Reviews-main > h4{
+    margin-top: 50px;
+    text-align: center;
+}
+.Reviews-main > h4 button{
+    margin: 0;
+    width: auto;
+    height: auto;
+    padding: 7px 45px;
+    border-radius: 100px;
+    font-size: 18px;
+    color: white;
+    right: 0;
+}
+.slider-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -250px;
+}
+.slider-button button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-button button img{
+    width: 30%;
+}
+.Nature{
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+}
+.natureImage{
+    width: 20%;
+    cursor: pointer;
+}

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.Contact-List{
+    width: 100%;
+}
+.Contac-First{
+    width: 60%;   
+    margin: auto;
+    text-align: center;
+}
+.Contac-First p{
+    line-height: 24px;
+    margin-top: 20px;
+}
+.All-Timing{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.TimeImage{
+    width: 20%;
+}
+.TimeImage img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.timing1{
+    width: 30%;
+    height: 200px;
+    box-shadow: 0px 2px 23.8px 0px #00000026;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    border-bottom: 2px dashed #FE9F0E6E;
+}
+.line{
+    display: flex;
+    margin-top: 20px;
+}
+.line span{
+    width: 15px;
+    display: block;
+    height: 2px;
+    margin: 0 2px;
+    /* background-color: #FE9F0E6E; */
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+}
+.footer-25{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    line-height: 24px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+ul li:hover{
+    color: #E85C0D;
+}
+.pad p{
+    padding: 20px 0px;
+    padding-right: 100px;
+}
+.pad{
+    margin-top: 20px;
+}
+.footer-25 h2{
+    color: black;
+}
+.inputss button,.inputss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 7px;
+}
+.inputss button img{
+    width: 40%;
+}
+.inputss input{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+.inputss input::placeholder{
+    font-style: italic;
+}
+.social{
+    margin-top: 50px;
+}
