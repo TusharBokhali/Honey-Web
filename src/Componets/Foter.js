@@ -1,12 +1,11 @@
 import React from "react";
-import "./Css/Footer.css";
 import Time1 from '../Images/Time1.png'
 import Time2 from '../Images/Time2.png'
 import Time3 from '../Images/Time3.png'
 import LOGO from '../Images/Main_Logo.png'
 import Next from '../SVG/Next.svg'
 import Footer from '../Componets/Footer.css'
-function Footer() {
+function Foter() {
   return (
     <>
       <div className="main">
@@ -28,20 +27,10 @@ function Footer() {
                         <img src={Time1} alt="" />
                     </div>
                     <div>
-                        <h2 style={{color:'black'}}>9.30 am - 8.00 pm</h2>
-                        <p style={{textAlign:'center',margin:'10px',color:'#0000009C'}}>Working Hours</p>
+                        <h2 style={{color:'black',margin:'20px'}}>9.30 am - 8.00 pm</h2>
+                        <p style={{textAlign:'center',margin:'50px 0',color:'#0000009C'}}>Working Hours</p>
                     </div>
-                       <div className="line">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+              
                 </div>
 
                 <div className="timing1">
@@ -52,17 +41,7 @@ function Footer() {
                         <h2 style={{color:'black'}}>(+91) 9016398259</h2>
                         <p style={{textAlign:'center',margin:'10px',color:'#0000009C'}}>Call Us Now</p>
                     </div>
-                       <div className="line">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+                    
                 </div>
 
                 <div className="timing1">
@@ -74,18 +53,7 @@ function Footer() {
                         <p style={{textAlign:'center',margin:'10px',color:'#0000009C'}}>Get Directions</p>
                     </div>
 
-                <div className="line">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-             
+               
                 </div>
             </div>
 
@@ -139,4 +107,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default Foter;

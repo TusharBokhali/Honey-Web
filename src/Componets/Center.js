@@ -21,10 +21,10 @@ import Nuture5 from '../Images/Nature5.png'
 function Center() {
     return (
         <>
-            <div className="main">
-                <div className="container">
-                    <div className="Product-Description">
-                        <div className="p-description">
+            <div className="main1">
+                <div className="container1">
+                    <div className="Product-Description1">
+                        <div className="p-description1">
                             <h1>
                                 100% <span style={{ color: "#E85C0D" }}>Fresh</span> Honey
                             </h1>
@@ -34,12 +34,12 @@ function Center() {
                                 in many foods and recipes.
                             </p>
                         </div>
-                        <div className="All-product">
-                            <div className="products">
-                                <div className="img">
+                        <div className="All-product1">
+                            <div className="products1">
+                                <div className="img1">
                                     <img src={Pro1} alt="" />
                                 </div>
-                                <div className="price">
+                                <div className="price1">
                                     <h3>Mango Flower Honey</h3>
                                     <p style={{ color: "#B83806", fontWeight: "500" }}>
                                         $100.00-$22.00
@@ -108,8 +108,8 @@ function Center() {
                             </div>
                         </div>
                     </div>
-                    <div className="Honey-Collection">
-                        <div className="content-Font">
+                    <div className="Honey-Collection1">
+                        <div className="content-Font1">
                             <h3>
                                 <span style={{ color: "#E85C0D" }}>Honey</span> Collection
                             </h3>
@@ -168,18 +168,18 @@ function Center() {
                                 </div>
                             </div>
                         </div>
-                        <div className="Reviews-main">
-                            <div className="Revies-Text">
+                        <div className="Reviews-main1">
+                            <div className="Revies-Text1">
                                 <h1 style={{ textAlign: 'center' }}>Our Happy <span style={{ color: '#E85C0D' }}>Customers</span></h1>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard consectetur adipisicing elit.</p>
                             </div>
-                            <div className="Profile-Details">
+                            <div className="Profile-Details1">
                                 <div className="Detail">
                                     <h2 style={{ color: 'black', marginBottom: '20px' }}>Justin Fisher</h2>
                                     <h4 style={{ color: '#E85C0D' }}>Student</h4>
                                     <p>Donec sodales metus arcu. Vestibulum lobortis, sem malesuada pulvinar mollis, justo tortor porta massa, et posuere leo tortor at felis. Sed placerat auctor felis ac rhoncus.</p>
                                 </div>
-                                <div className="Profile">
+                                <div className="Profile1">
                                     <img src={Profile1} alt="" />
                                 </div>
                             </div>
@@ -187,7 +187,7 @@ function Center() {
                                 <button>View More</button>
                             </h4>
                         </div>
-                        <div className="slider-button">
+                        <div className="slider-button1">
                             <div>
                                 <button><img src={Previews} alt="" /></button>
                             </div>
@@ -197,8 +197,8 @@ function Center() {
                                 </button>
                             </div>
                         </div>
-                        <div className="Nature">
-                            <div className="natureImage">
+                        <div className="Nature1">
+                            <div className="natureImage1">
                                 <img src={Nuture1} alt="" />
                             </div>
 

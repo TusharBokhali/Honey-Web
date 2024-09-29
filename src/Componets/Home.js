@@ -4,9 +4,13 @@ import FC2 from "../Images/C2.jpeg";
 import full from "../Images/threeFull.png";
 import honey from "../Images/Honey.jpg";
 import secondImg1 from "../Images/SecondImage1.png";
-import CardI1 from '../Images/CardIM1.png'
-import CardI2 from '../Images/CardsIM2.png'
-import CardI3 from '../Images/CardIM3.png'
+// import CardI1 from '../Images/CardIM1.png'
+// import CardI2 from '../Images/CardsIM2.png'
+// import CardI3 from '../Images/CardIM3.png'
+import Cart1 from '../Images/CRT13.png'
+import Cart2 from '../Images/CRT12.png'
+import Cart3 from '../Images/CRT1.png'
+
 
 function Home() {
   return (
@@ -66,7 +70,7 @@ function Home() {
             <div className="Cards">
               <div className="card">
                 <div className="card-Image">
-                  <img src={CardI1} alt="" />
+                  <img src={Cart1} alt="" />
                 </div>
                 <div className="description">
                   <h4>Quality assurance</h4>
@@ -76,7 +80,7 @@ function Home() {
 
               <div className="card">
                 <div className="card-Image">
-                  <img src={CardI2} alt="" />
+                  <img src={Cart2} alt="" />
                 </div>
                 <div className="description">
                   <h4>Easy to order</h4>
@@ -86,7 +90,7 @@ function Home() {
 
               <div className="card">
                 <div className="card-Image">
-                  <img src={CardI3} alt="" />
+                  <img src={Cart3} alt="" />
                 </div>
                 <div className="description">
                   <h4>Fast shipping</h4>

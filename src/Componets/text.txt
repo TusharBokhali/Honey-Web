@@ -156,7 +156,7 @@ function Contact() {
                     9016398259
                   </h3>
                   <h3>Social Media</h3>
-                  <div className="social250"></div>
+                  <div className="social"></di250v>
                 </div>
               </div>
 

@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.Cont250{
+    width: 100%;
+    height: 100vh;
+}
+.Cont-Contai250{
+    width: 1140px;
+    margin: auto;
+}
+.Top250{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.All-Timing250{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.flex250{
+    width: 50%;
+}
+.timing1250{
+    width: 50%;
+    margin: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px dashed orange;
+    
+}
+.Form250{
+    width: 50%;
+}
+.ALL-INPUTS250{
+    width: 100%;
+    margin-top: 50px;
+}
+.Personal250{
+    display: flex;
+    justify-content: space-between;
+}
+.Personal250 input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 194, 194);
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-top:5px;
+}
+#Email{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 194, 194);
+    margin-bottom: 20px;
+    margin-top:5px;
+    font-size: 16px;
+
+}
+#Phone{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 194, 194);
+    margin-top:5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+
+}   
+#MSG{
+    border-radius: 10px;
+    margin-top:5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+#Check{
+    width: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 194, 194);
+       
+}
+.ALL-INPUTS250 button{
+    width: 100%;
+    margin-top: 50px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    right: 0;
+    background: linear-gradient(#E36488,#FF9100);
+}
+.TimeImage250{
+    width: 50%;
+    text-align: center;
+}
+.TimeImage250 img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.footer-25250{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-25250 li{
+    list-style: none;
+    line-height: 24px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+.footer-25250 ul li:hover{
+    color: #E85C0D;
+}
+.pad250 p{
+    padding: 20px 0px;
+    padding-right: 100px;
+}
+.pad250{
+    margin-top: 20px;
+}
+.footer-25250 h2{
+    color: black;
+}
+.inputss250 button,.inputss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 7px;
+}
+.inputss250 button img{
+    width: 40%;
+}
+.inputss250 input{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+}
+.inputss250 input::placeholder{
+    font-style: italic;
+}
+.inputss250{
+    display: flex;
+}
+.social250{
+    margin-top: 50px;
+}

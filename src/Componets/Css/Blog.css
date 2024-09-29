@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.BlogMain{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.Blog-section{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Blog-Review{
+    width: 100%;
+    text-align: center;
+}
+.Blog-Review p{
+    width: 60%;
+    margin: 20px auto;
+    margin-bottom: 150px;
+}
+.ComponetBlogs{
+    width: 100%;
+    margin: 50px 0;
+}
+.Profile-Details{
+    width: 100%;
+    display: flex;
+justify-content: end;
+}
+.Detail{
+    width: 50%;
+}
+.Detail p{
+    width: 52%;
+    padding: 40px 0px;
+    line-height: 24px;
+    color: #000000B2;
+    font-weight: 500;
+}
+.Profile{
+    width: 30%;
+}
+.Profile img{
+    width: 60%;
+    border-radius: 100%;
+}
+.ComponetBlogs > h4 button{
+    margin: 0;
+    width: auto;
+    height: auto;
+    padding: 7px 45px;
+    border-radius: 100px;
+    font-size: 18px;
+    color: white;
+    right: 0;
+}
+.slider-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -180px;
+}
+.slider-button button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-button button img{
+    width: 30%;
+}
