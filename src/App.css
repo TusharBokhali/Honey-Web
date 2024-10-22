@@ -40,6 +40,24 @@ nav ul li{
   cursor: pointer;
   position: relative;
 }
+.IMG{
+  width: 100%;
+  height: 53px;
+  position: relative;
+}
+.IMG::before{
+  content: '';
+position: absolute;  
+width: 100%;
+height: 100%;
+top: 20px;
+left: 20px;
+background-image: url('./Images/UL_LI.png'); /* Replace with your image URL */
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+}
+/* }
 nav ul li::before {
   content: '';
   position: absolute;
@@ -49,13 +67,16 @@ nav ul li::before {
   bottom: -42px;
   height: 43px; 
   background-image: url('./Images/UL_LI.png'); /* Replace with your image URL */
-  background-size: contain;
+  /* background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  display: block;
+  display: block; */
+  
 
-}
 nav ul li:hover{
+  color: #E85C0D;
+}
+.active{
   color: #E85C0D;
 }
 nav .search{

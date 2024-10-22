@@ -43,41 +43,56 @@ function App() {
               <img src={Logo} alt="" />
             </div>
             <ul>
-              <li
+            <h3 className={page=="Home" ? "IMG" : ''}>
+
+              <li className={page=="Home" ? 'active':''}
                 onClick={() => {
                   PageChange("Home");
                 }}
               >
                 Home
               </li>
-              <li
+            </h3>
+            <h3 className={page=="About" ? "IMG" : ''}>
+
+              <li className={page=="About" ? 'active':''}
                 onClick={() => {
                   PageChange("About");
                 }}
               >
-                About
+                About 
               </li>
-              <li
+            </h3>
+            <h3 className={page=="Shop" ? "IMG" : ''}>
+
+              <li className={page=="Shop" ? 'active':''}
                 onClick={() => {
                   PageChange("Shop");
                 }}
               >
                 Shop
               </li>
-              <li
+              </h3>
+            <h3 className={page=="Blog" ? "IMG" : ''}>
+
+              <li className={page=="Blog" ? 'active':''}
                 onClick={() => {
                   PageChange("Blog");
                 }}
               >
                 Blog
               </li>
-              <li 
+              </h3>
+            <h3 className={page=="Contact" ? "IMG" : ''}>
+
+              <li className={page=="Contact" ? 'active':''}
                 onClick={() => {
                   PageChange("Contact");
                 }}
               >
                 Contact
               </li>
+              </h3>
             </ul>
             <div className="search">
               <input type="text" id="" placeholder="Your E-mail" />
